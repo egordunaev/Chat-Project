@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChatLib</name>
+    </assembly>
+    <members>
+        <member name="T:ChatLib.Authentication">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ChatLib.Authentication.Credentials">
+            <summary>
+            Словарь в котором хранятся логины и пароли пользователей.
+            </summary>
+        </member>
+        <member name="M:ChatLib.Authentication.#ctor">
+            <summary>
+            Подключение пользователя последствием проверки логина и пароля из файла.
+            </summary>
+        </member>
+        <member name="M:ChatLib.Authentication.ValidateCredentials">
+            <summary>
+            Сверяет введенные пользователем данные и выдает булевый результат.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ChatLib.ChatClient">
+            <summary>
+            Класс, представляющий собой пользователя (клиента) чата.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatClient.address">
+            <summary>
+            IP-адрес пользователя.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatClient.port">
+            <summary>
+            Порт подключения пользователя (клиента).
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatClient.client">
+            <summary>
+            Протокол обмена данными.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatClient.thread">
+            <summary>
+            Поток, выполняющий метод Listen - чтения данных.
+            </summary>
+        </member>
+        <member name="E:ChatLib.ChatClient.DataReceived">
+            <summary>
+            Событие, что клиент получает данные (сообщения).
+            </summary>
+        </member>
+        <member name="M:ChatLib.ChatClient.#ctor(System.Net.IPAddress,System.Int32)">
+            <summary>
+            Конструктор класса ChatClient, создающий экземпляр (объект) - клиент.
+            </summary>
+            <param name="addr">IP-адрес клиента сервера.</param>
+            <param name="port">Порт клиента сервера.</param>
+        </member>
+        <member name="M:ChatLib.ChatClient.Connect">
+            <summary>
+            Метод подключения пользователя к серверу.
+            </summary>
+        </member>
+        <member name="M:ChatLib.ChatClient.Send(System.String)">
+            <summary>
+            Метод отправки данных.
+            </summary>
+            <param name="data">Отправляемое сообщение.</param>
+        </member>
+        <member name="M:ChatLib.ChatClient.Listen">
+            <summary>
+            Метод прослушивания (чтения) данных, 
+            </summary>
+        </member>
+        <member name="T:ChatLib.ChatServer">
+            <summary>
+            Сервер обработки и передачи данных.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatServer.Botlist">
+            <summary>
+            Список ботов.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatServer.dbot">
+            <summary>
+            Бот даты.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatServer.sbot">
+            <summary>
+            Поисковой бот.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatServer.task">
+            <summary>
+            Отображение состояния очереди и сообщение о состоянии отправки сообщений из очереди.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatServer.lcThread">
+            <summary>
+            Поток, выполняющий метод ListenConnects - прослушивание подключений.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatServer.ldThread">
+            <summary>
+            Поток, выполняющий метод ListenData - статус данных.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatServer.aThread">
+            <summary>
+            Поток, выполняющий метод CheckConnections - проверка подключения клиента к серверу.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatServer.address">
+            <summary>
+            IP адрес пользователя (клиента).
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatServer.port">
+            <summary>
+            Порт пользователя (клиента).
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatServer.clients">
+            <summary>
+            Протокол обмена данными.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ChatServer.server">
+            <summary>
+            Протокол обмена данными сервера.
+            </summary>
+        </member>
+        <member name="E:ChatLib.ChatServer.DataReceivedEvent">
+            <summary>
+            Отправление оповещения клиенту с сервера, что данные получены сервером.
+            </summary>
+        </member>
+        <member name="E:ChatLib.ChatServer.ConnectionEvent">
+            <summary>
+            Событие, указывающее статус подключения клиента с конечной удаленной точкой.
+            </summary>
+        </member>
+        <member name="M:ChatLib.ChatServer.#ctor(System.Net.IPAddress,System.Int32)">
+            <summary>
+            Конструктор класса ChatServer, создающий экземпляр (объект) - сервер.
+            </summary>
+            <param name="addr"> IP-адрес</param>
+            <param name="port"> Порт</param>
+        </member>
+        <member name="M:ChatLib.ChatServer.ListenConnects">
+            <summary>
+            Метод прослушивания подключений.
+            </summary>
+        </member>
+        <member name="M:ChatLib.ChatServer.Send(System.String)">
+            <summary>
+            Метод отправки данных.
+            </summary>
+            <param name="data"> Данные в виде строки</param>
+        </member>
+        <member name="M:ChatLib.ChatServer.ListenData">
+            <summary>
+            Прослушивание данных сервером.
+            </summary>
+        </member>
+        <member name="M:ChatLib.ChatServer.CheckConnections">
+            <summary>
+            Проверка подключений к серверу.
+            </summary>
+        </member>
+        <member name="M:ChatLib.ChatServer.ClientLister(System.String,System.Net.Sockets.TcpClient)">
+            <summary>
+            Показывает список подключенных пользователей.
+            </summary>
+            <param name="data">Полученные данные.</param>
+            <param name="var_client">Клиент сервера.</param>
+        </member>
+        <member name="M:ChatLib.ChatServer.SendTo(System.String)">
+            <summary>
+            Отправляет сообщение конкретному пользователю.
+            </summary>
+            <param name="data">Полученные данные</param>
+        </member>
+        <member name="T:ChatLib.ConnState">
+            <summary>
+            Перечисление статуса подключения клиента.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ConnState.Connected">
+            <summary>
+            Клиент подключен.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ConnState.Disconnected">
+            <summary>
+            Клиент отключен.
+            </summary>
+        </member>
+        <member name="T:ChatLib.ClientDataReceivedDelegate">
+            <summary>
+            Обработчик события DataReceived, что клиент получает данные (сообщения).
+            </summary>
+            <param name="data"> Данные в виде строки</param>
+        </member>
+        <member name="T:ChatLib.IChatClient">
+            <summary>
+            Интерфейс, определяющий правила для класса ChatClient.
+            </summary>
+        </member>
+        <member name="M:ChatLib.IChatClient.Connect">
+            <summary>
+            Метод подключения к серверу.
+            </summary>
+        </member>
+        <member name="M:ChatLib.IChatClient.Send(System.String)">
+            <summary>
+            Метод отравки данных.
+            </summary>
+            <param name="data"> Данные в виде строки</param>
+        </member>
+        <member name="M:ChatLib.IChatClient.Listen">
+            <summary>
+            Метод чтения данных.
+            </summary>
+        </member>
+        <member name="E:ChatLib.IChatClient.DataReceived">
+            <summary>
+            Событие, что клиент получает данные (сообщения).
+            </summary>
+        </member>
+        <member name="T:ChatLib.ServerDataReceivedDelegate">
+            <summary>
+            Обработчик события DataReceivedEvent, что клиенту отправляется оповещение с сервера, что данные получены сервером.
+            </summary>
+            <param name="data"> Данные в виде строки</param>
+            <param name="client"> Протокол обмена данными</param>
+        </member>
+        <member name="T:ChatLib.ServerConnectionDelegate">
+            <summary>
+            Обработчик события ConnectionEvent, указывающего статус подключения клиента с конечной удаленной точкой.
+            </summary>
+            <param name="status"> Статус подключения</param>
+            <param name="client"> Протокол обмена данными</param>
+        </member>
+        <member name="T:ChatLib.IChatServer">
+            <summary>
+            Интерфейс, определяющий правила для класса ChatServer.
+            </summary>
+        </member>
+        <member name="M:ChatLib.IChatServer.ListenConnects">
+            <summary>
+            Метод прослушивания подключений.
+            </summary>
+        </member>
+        <member name="M:ChatLib.IChatServer.Send(System.String)">
+            <summary>
+            Метод отправки данных всем подключенным клиентам.
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="M:ChatLib.IChatServer.ListenData">
+            <summary>
+            Метод чтения.
+            </summary>
+        </member>
+        <member name="E:ChatLib.IChatServer.DataReceivedEvent">
+            <summary>
+            Отправление оповещения клиенту с сервера, что данные получены сервером.
+            </summary>
+        </member>
+        <member name="E:ChatLib.IChatServer.ConnectionEvent">
+            <summary>
+            Событие, указывающее статус подключения клиента с конечной удаленной точкой.
+            </summary>
+        </member>
+        <member name="T:ChatLib.ITask">
+            <summary>
+             Интерфейс, определяющий правила для класса Task.
+            </summary>
+        </member>
+        <member name="M:ChatLib.ITask.MessageSucc(ChatLib.ServerTask@,ChatLib.ChatServer@,System.Collections.Generic.Queue{ChatLib.ServerTask}@)">
+            <summary>
+            Ответное сообщение клиенту от сервера об успешном отправлении данных. Счетчик очереди.
+            </summary>
+            <param name="_task">Экземпляр класса ServerTask</param>
+            <param name="server">Сервер</param>
+            <param name="queue">Очередь</param>
+        </member>
+        <member name="T:ChatLib.MessageQueue">
+            <summary>
+            Класс очереди сообщений.
+            </summary>
+        </member>
+        <member name="F:ChatLib.MessageQueue.dbot">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ChatLib.MessageQueue.sbot">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ChatLib.MessageQueue.wbot">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ChatLib.MessageQueue.smsbot">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ChatLib.MessageQueue.queue">
+            <summary>
+            Очередь сообщений.
+            </summary>
+        </member>
+        <member name="F:ChatLib.MessageQueue.queueThread">
+            <summary>
+            Поток очереди.
+            </summary>
+        </member>
+        <member name="F:ChatLib.MessageQueue.server">
+            <summary>
+            Ссылка на основной сервер.
+            </summary>
+        </member>
+        <member name="M:ChatLib.MessageQueue.#ctor(ChatLib.ChatServer)">
+            <summary>
+            Метод очереди сообщений.
+            </summary>
+            <param name="srv">Сервер</param>
+        </member>
+        <member name="M:ChatLib.MessageQueue.messProcessor">
+            <summary>
+            Обработчик выполнения очереди сообщений.
+            </summary>
+        </member>
+        <member name="M:ChatLib.MessageQueue.SetTask(System.String,System.Net.Sockets.TcpClient)">
+            <summary>
+            Запись сообщений в очередь.
+            </summary>
+            <param name="data">Данные в виде строки</param>
+            <param name="client">Клиент</param>
+        </member>
+        <member name="M:ChatLib.MessageQueue.SetTask(ChatLib.ServerTask)">
+            <summary>
+            Запись сообщений в очередь.
+            </summary>
+            <param name="t">Ссылка на готовый объект структуры ServerTask</param>
+        </member>
+        <member name="T:ChatLib.ServerTask">
+            <summary>
+            Структура серверной задачи.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ServerTask._client">
+            <summary>
+            Протокол обмена данными.
+            </summary>
+        </member>
+        <member name="F:ChatLib.ServerTask._data">
+            <summary>
+            Данные в виде строки.
+            </summary>
+        </member>
+        <member name="T:ChatLib.Task">
+            <summary>
+            Реализует статус отправки сообщения из очереди и показывает количество сообщений в очереди.
+            </summary>
+        </member>
+        <member name="M:ChatLib.Task.MessageSucc(ChatLib.ServerTask@,ChatLib.ChatServer@,System.Collections.Generic.Queue{ChatLib.ServerTask}@)">
+            <summary>
+            Ответное сообщение клиенту от сервера об успешном отправлении данных. Счетчик очереди.
+            </summary>
+            <param name="_task">Экземпляр класса ServerTask.</param>
+            <param name="server">Сервер.</param>
+            <param name="queue">Очередь.</param>
+        </member>
+    </members>
+</doc>

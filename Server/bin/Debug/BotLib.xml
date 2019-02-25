@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BotLib</name>
+    </assembly>
+    <members>
+        <member name="T:BotLib.DateBot">
+            <summary>
+            Реализует вывод даты и времени.
+            </summary>
+        </member>
+        <member name="T:BotLib.IBot">
+            <summary>
+            Интерфейс ботов.
+            </summary>
+        </member>
+        <member name="M:BotLib.IBot.BotOutput(System.String,System.Net.Sockets.TcpClient)">
+            <summary>
+            Метод вывода для всех ботов.
+            </summary>
+            <param name="b_out">Вывод бота.</param>
+            <param name="var_client">Клиент сервера.</param>
+        </member>
+        <member name="M:BotLib.DateBot.BotOutput(System.String,System.Net.Sockets.TcpClient)">
+            <summary>
+            Выводит дату и время на данный момент.
+            </summary>
+            <param name="date">Дата.</param>
+            <param name="var_client">Клиент сервера.</param>
+        </member>
+        <member name="T:BotLib.SearchBot">
+            <summary>
+            Реализует поиск по ключевому слову или фразе.
+            </summary>
+        </member>
+        <member name="M:BotLib.SearchBot.BotOutput(System.String,System.Net.Sockets.TcpClient)">
+            <summary>
+            "Обрезает" полученные данные и выводит результаты поиска по ключевому слову.
+            </summary>
+            <param name="searchword">Критерии поиска.</param>
+            <param name="var_client">Клиент сервера.</param>
+        </member>
+        <member name="T:BotLib.SMSBot">
+            <summary>
+            СМС бот.
+            </summary>
+        </member>
+        <member name="M:BotLib.SMSBot.BotOutput(System.String,System.Net.Sockets.TcpClient)">
+            <summary>
+            Метод отправки смс-сообщений.
+            </summary>
+            <param name="data">Полученные данные.</param>
+            <param name="_client">Клиент сервера.</param>
+        </member>
+        <member name="T:BotLib.WeatherBot">
+            <summary>
+            Бот, который определяет погоду в указанном регионе.
+            </summary>
+        </member>
+        <member name="M:BotLib.WeatherBot.BotOutput(System.String,System.Net.Sockets.TcpClient)">
+            <summary>
+            Вывод погоды.
+            </summary>
+            <param name="data">Полученные данные.</param>
+            <param name="var_client">Клиент сервера.</param>
+        </member>
+    </members>
+</doc>

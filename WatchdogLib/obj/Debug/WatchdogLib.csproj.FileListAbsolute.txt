@@ -1,0 +1,5 @@
+E:\Programs\_program_stuff\Visual Studio\ChatProject\WatchdogLib\bin\Debug\WatchdogLib.dll
+E:\Programs\_program_stuff\Visual Studio\ChatProject\WatchdogLib\bin\Debug\WatchdogLib.pdb
+E:\Programs\_program_stuff\Visual Studio\ChatProject\WatchdogLib\obj\Debug\WatchdogLib.csproj.CoreCompileInputs.cache
+E:\Programs\_program_stuff\Visual Studio\ChatProject\WatchdogLib\obj\Debug\WatchdogLib.dll
+E:\Programs\_program_stuff\Visual Studio\ChatProject\WatchdogLib\obj\Debug\WatchdogLib.pdb

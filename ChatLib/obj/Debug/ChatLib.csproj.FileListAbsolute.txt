@@ -1,0 +1,94 @@
+C:\Users\dk12\Documents\Visual Studio 2012\Projects\ChatProject\ChatLib\bin\Debug\ChatLib.dll
+C:\Users\dk12\Documents\Visual Studio 2012\Projects\ChatProject\ChatLib\bin\Debug\ChatLib.pdb
+C:\Users\dk12\Documents\Visual Studio 2012\Projects\ChatProject\ChatLib\obj\Debug\ChatLib.csprojResolveAssemblyReference.cache
+C:\Users\dk12\Documents\Visual Studio 2012\Projects\ChatProject\ChatLib\obj\Debug\ChatLib.dll
+C:\Users\dk12\Documents\Visual Studio 2012\Projects\ChatProject\ChatLib\obj\Debug\ChatLib.pdb
+G:\ЧАТ\ChatProject\ChatLib\bin\Debug\ChatLib.dll
+G:\ЧАТ\ChatProject\ChatLib\bin\Debug\ChatLib.pdb
+G:\ЧАТ\ChatProject\ChatLib\obj\Debug\ChatLib.csprojResolveAssemblyReference.cache
+G:\ЧАТ\ChatProject\ChatLib\obj\Debug\ChatLib.csproj.CoreCompileInputs.cache
+G:\ЧАТ\ChatProject\ChatLib\obj\Debug\ChatLib.dll
+G:\ЧАТ\ChatProject\ChatLib\obj\Debug\ChatLib.pdb
+F:\ЧАТ\ChatProject\ChatLib\bin\Debug\ChatLib.dll
+F:\ЧАТ\ChatProject\ChatLib\bin\Debug\ChatLib.pdb
+F:\ЧАТ\ChatProject\ChatLib\obj\Debug\ChatLib.csprojResolveAssemblyReference.cache
+F:\ЧАТ\ChatProject\ChatLib\obj\Debug\ChatLib.dll
+F:\ЧАТ\ChatProject\ChatLib\obj\Debug\ChatLib.pdb
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\bin\Debug\ChatLib.dll
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\bin\Debug\ChatLib.pdb
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\obj\Debug\ChatLib.csprojResolveAssemblyReference.cache
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\obj\Debug\ChatLib.csproj.CoreCompileInputs.cache
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\obj\Debug\ChatLib.dll
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\obj\Debug\ChatLib.pdb
+F:\Visual Studio\ChatProject\ChatLib\bin\Debug\ChatLib.dll
+F:\Visual Studio\ChatProject\ChatLib\bin\Debug\ChatLib.pdb
+F:\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.csprojResolveAssemblyReference.cache
+F:\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.dll
+F:\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.pdb
+F:\Visual Studio\ChatProject\ChatLib\bin\Debug\BotLib.dll
+F:\Visual Studio\ChatProject\ChatLib\bin\Debug\BotLib.pdb
+I:\Visual Studio\ChatProject\ChatLib\bin\Debug\ChatLib.dll
+I:\Visual Studio\ChatProject\ChatLib\bin\Debug\ChatLib.pdb
+I:\Visual Studio\ChatProject\ChatLib\bin\Debug\BotLib.dll
+I:\Visual Studio\ChatProject\ChatLib\bin\Debug\BotLib.pdb
+I:\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.csprojResolveAssemblyReference.cache
+I:\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.csproj.CoreCompileInputs.cache
+I:\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.dll
+I:\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.pdb
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\bin\Debug\ChatLib.XML
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\bin\Debug\ChatLib.dll
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\bin\Debug\ChatLib.pdb
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\bin\Debug\BotLib.dll
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\bin\Debug\BotLib.pdb
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\bin\Debug\BotLib.xml
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.csprojResolveAssemblyReference.cache
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.dll
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.pdb
+I:\Visual Studio\ChatProject\ChatLib\bin\Debug\ChatLib.XML
+I:\Visual Studio\ChatProject\ChatLib\bin\Debug\BotLib.xml
+F:\Visual Studio\ChatProject\ChatLib\bin\Debug\ChatLib.XML
+F:\Visual Studio\ChatProject\ChatLib\bin\Debug\BotLib.xml
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\bin\Debug\ChatLib.XML
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\bin\Debug\ChatLib.dll
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\bin\Debug\ChatLib.pdb
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\bin\Debug\BotLib.dll
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\bin\Debug\BotLib.pdb
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\bin\Debug\BotLib.xml
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.csprojResolveAssemblyReference.cache
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.csproj.CoreCompileInputs.cache
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.dll
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\obj\Debug\ChatLib.pdb
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\bin\Debug\Twilio.dll
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\bin\Debug\Newtonsoft.Json.dll
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\bin\Debug\JWT.dll
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\bin\Debug\Twilio.xml
+E:\Programs\_program_stuff\Visual Studio\ChatProject\ChatLib\bin\Debug\Newtonsoft.Json.xml
+I:\ChatProject\ChatLib\bin\Debug\ChatLib.XML
+I:\ChatProject\ChatLib\bin\Debug\ChatLib.dll
+I:\ChatProject\ChatLib\bin\Debug\ChatLib.pdb
+I:\ChatProject\ChatLib\bin\Debug\BotLib.dll
+I:\ChatProject\ChatLib\bin\Debug\Twilio.dll
+I:\ChatProject\ChatLib\bin\Debug\Newtonsoft.Json.dll
+I:\ChatProject\ChatLib\bin\Debug\JWT.dll
+I:\ChatProject\ChatLib\bin\Debug\BotLib.pdb
+I:\ChatProject\ChatLib\bin\Debug\BotLib.xml
+I:\ChatProject\ChatLib\bin\Debug\Twilio.xml
+I:\ChatProject\ChatLib\bin\Debug\Newtonsoft.Json.xml
+I:\ChatProject\ChatLib\obj\Debug\ChatLib.csprojResolveAssemblyReference.cache
+I:\ChatProject\ChatLib\obj\Debug\ChatLib.csproj.CoreCompileInputs.cache
+I:\ChatProject\ChatLib\obj\Debug\ChatLib.dll
+I:\ChatProject\ChatLib\obj\Debug\ChatLib.pdb
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\bin\Debug\Twilio.dll
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\bin\Debug\Newtonsoft.Json.dll
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\bin\Debug\JWT.dll
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\bin\Debug\Twilio.xml
+M:\kurs2\gr2-42\DunaevEgor\Visual Studio\ChatProject\ChatLib\bin\Debug\Newtonsoft.Json.xml
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\bin\Debug\ChatLib.XML
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\bin\Debug\BotLib.dll
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\bin\Debug\Twilio.dll
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\bin\Debug\Newtonsoft.Json.dll
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\bin\Debug\JWT.dll
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\bin\Debug\BotLib.pdb
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\bin\Debug\BotLib.xml
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\bin\Debug\Twilio.xml
+E:\Programs\_program_stuff\Visual Studio\Projects\ChatProject\ChatLib\bin\Debug\Newtonsoft.Json.xml
